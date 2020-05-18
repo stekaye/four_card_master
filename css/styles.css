@@ -1,0 +1,98 @@
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(234, 12%, 34%); 
+  text-decoration: none;
+}
+.attribution a:hover { 
+  color: hsl(229, 6%, 66%);
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  text-align: center;
+}
+p {
+  color: hsl(229, 6%, 66%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* ******************* TOP SECTION ******************* */
+
+
+.top-section {
+  margin: 10vh auto;
+  text-align: center;
+}
+.first-header {
+  color: hsl(229, 6%, 66%);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  margin: 0;
+}
+.second-header {
+  color: hsl(234, 12%, 34%);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+.header-text {
+  margin: 2vh auto;
+  width: 40%;
+}
+
+/* ******************* MAIN SECTION ******************* */
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  margin: 0 4vw;
+}
+
+.card {
+  /* align-items: center; */
+  display: flex;
+  flex: 1 1 24px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card div {
+  background-color: #fff;
+  border-radius: 2%;
+  box-shadow: 0 0 10px 0 hsl(234, 12%, 34%);
+  font-family: 'Poppins', sans-serif;
+  height: 200px;
+  margin: 24px;
+  padding: 1vh 2vw;
+  text-align: left;
+  width: 320px;
+}
+.card img {
+  float: right;
+  width: 15%;
+}
+
+.card-text {
+  font-size: 13px;
+}
+
+.card-supervisor {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.card-team-builder {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.card-karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.card-calculator {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
