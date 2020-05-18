@@ -96,3 +96,39 @@ p {
 .card-calculator {
   border-top: 4px solid hsl(212, 86%, 64%);
 }
+
+/* ******************* MEDIA QUERIES ******************* */
+
+@media only screen and (max-width: 600px) {
+
+  .header-text {
+    width: 90%;
+  }
+  .main-section {
+    flex-direction: column;
+  }
+  .first-header, 
+  .second-header {
+    font-size: 1.7rem;
+  }
+  .header-text {
+   font-size: 1rem;
+  }
+  .second-header {
+    color: hsl(234, 12%, 34%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 0;
+  }
+  .card div {
+    margin: 24px auto;
+    max-width: 80%;
+    padding: 2vh 7vw 0;
+  }
+  .card-text {
+    font-size: 14px;
+    padding-bottom: 2vh;
+  }
+  
+
+}
